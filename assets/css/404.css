@@ -1,0 +1,43 @@
+body{
+    background-image: linear-gradient(90deg,#b77120 0,#f6f58f 51.04%,#b77120);
+}
+#error{
+    border:rgb(0, 0, 0) 2px solid;
+    border-radius: 5px;
+    margin-top: 50px; 
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+    padding: 5% 10%;
+}
+button{
+padding: 10px 30px;
+background-image: linear-gradient(90deg,#b77120 0,#f6f58f 51.04%,#b77120);
+color:black;
+border:black 2px solid;
+border-radius: 15px;
+margin-bottom: 10px;
+}
+button:hover{
+    padding: 10px 35px;
+    background-image: linear-gradient(90deg,#b77120 0,#f6f58f 51.04%,#b77120);
+    }
+button > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+button > a:hover {
+    text-decoration: none;
+    color:white;
+}
+h1{
+    background: linear-gradient(
+    90deg,#b77120,#f6f58f,#b77120);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:2rem;                      
+}
+img{
+    width: 100px;
+}
